@@ -51,6 +51,11 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG1, numbers[jstCount++])
+    }
+
     override fun onResume() {
         super.onResume()
         Log.d(TAG1, numbers[jstCount++])
