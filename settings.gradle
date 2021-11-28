@@ -7,6 +7,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "secApp"
-include ':app'
-include ':basicviews'
-include ':layouts'
+include ':firstApp'
+include ':secondBasicV'
+include ':thirdLayouts'

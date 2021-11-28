@@ -10,9 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/basicviews" />
-            <option value="$PROJECT_DIR$/layouts" />
+            <option value="$PROJECT_DIR$/firstApp" />
+            <option value="$PROJECT_DIR$/secondBasicV" />
+            <option value="$PROJECT_DIR$/thirdLayouts" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
