@@ -38,7 +38,7 @@ val numbers: Array<String> = arrayOf(                           // создае�
 //fun cnt():Int{  return jstCount++ } --странно !!! отрабатывает какбудто в логе- начиная с 0
 
 fun cnt():Int{
-    if  (jstCount<9) return jstCount++
+    if  (jstCount<9) return jstCount++  //и тут
     else {
          jstCount=0
         return jstCount}
