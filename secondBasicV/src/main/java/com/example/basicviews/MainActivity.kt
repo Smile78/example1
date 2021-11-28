@@ -1,20 +1,26 @@
-package com.example.basicviews
+package com.example.basicviews                                      //для  инфы.-  текущий пакет/папка
 /*
 МОЦ_ТГУ_РМП_5 Никитин Андрей Сергеевич
 Последовательный вывод строчек стихотворения, используя переопределения событий жизненного цикла активности
 */
 
-import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity                     //для  инфы.-  т импорт всмомогательных модулей - мы из них используем некторые функции
 import android.os.Bundle
 import android.util.Log
 
-const val TAG1 = "MainActivity"                                      // таг - нужен 1ым параметром для логов
+
+
+
+
+class MainActivity : AppCompatActivity() {                        // для  инфы.-
+
+    val TAG1 = "MainActivity"                                     // таг - нужен 1ым параметром для логов
 
     var jstCount  : Int = 0                                         // счетчик - будет прибаляться при каждоом действии
-                                                                    // var ключ слово переменной - означает изменяемая
-                                                                    // jstCount -название
-                                                                    // Int - тип переменной  (хранятся числа)
-                                                                    // 0- значение переменной
+    // var ключ слово переменной - означает изменяемая
+    // jstCount -название
+    // Int - тип переменной  (хранятся числа)
+    // 0- значение переменной
 
     val numbers: Array<String> = arrayOf(                           // создаем коллекцию "массив"
             "1 Душе очарованной снятся лазурные дали...",           // потом будем брать построчно - по индексу
@@ -29,18 +35,14 @@ const val TAG1 = "MainActivity"                                      // таг -
     )
 
 
+    override fun onCreate(savedInstanceState: Bundle?) {        // для  инфы.-  т"активность" -функция которая срабатывает  при ЗАПУСКЕ приложения
+                                                                // для  инфы.-  тoverride - ключ слово
+                                                               // для  инфы.-  т fun - показывает что это функция
+                                                               //    тonCreate - название функции
+                                                               // для  инфы.-  т savedInstanceState: Bundle? - параметр передаваемый в функцию
 
-
-class MainActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {        // "активность" -функция которая срабатывает  при ЗАПУСКЕ приложения
-                                                                // override - ключ слово
-                                                               //  fun - показывает что это функция
-                                                               //  onCreate - название функции
-                                                               //  savedInstanceState: Bundle? - параметр передаваемый в функцию
-
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        super.onCreate(savedInstanceState)                    // для  инфы.-
+        setContentView(R.layout.activity_main)                // для  инфы.-
 
         Log.d(TAG1, numbers[jstCount++])                        // вывод лога в консоль .
     }                                                           // 1ый парметр ТАГ .
