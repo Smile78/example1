@@ -35,29 +35,24 @@ val numbers: Array<String> = arrayOf(                           // создае�
 )
 
 
-fun cnt():Int{  return jstCount++ }
+//fun cnt():Int{  return jstCount++ } --странно !!! отрабатывает какбудто в логе- начиная с 0
 
-//fun cnt():Int{
-//    jstCount++
-//    if  (jstCount<9) return jstCount
-//    else {
-//         jstCount=
-//        return jstCount}
-// }
+fun cnt():Int{
+    if  (jstCount<9) return jstCount++
+    else {
+         jstCount=0
+        return jstCount}
+ }
 
 
 class MainActivity : AppCompatActivity() {                        // для  инфы.-
 
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {        // для  инфы.-  "активность" -функция которая срабатывает  при ЗАПУСКЕ приложения
                                                                 // для  инфы.-   override - ключ слово
-                                                               // для  инфы.-   fun - показывает что это функция
-                                                               //    тonCreate - название функции
-                                                               // для  инфы.-     savedInstanceState: Bundle? - параметр передаваемый в функцию
-
-
+                                                                // для  инфы.-   fun - показывает что это функция
+                                                                //    тonCreate - название функции
+                                                                // для  инфы.-     savedInstanceState: Bundle? - параметр передаваемый в функцию
 
 
         super.onCreate(savedInstanceState)                    // для  инфы.-
