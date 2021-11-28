@@ -24,7 +24,7 @@ const val TAG1 = "MainActivity"                                      // таг -
                                                                     // Int - тип переменной  (хранятся числа)
                                                                     // 0- значение переменной
 
-    val numbers: Array<String> = arrayOf(                           // создаем коллекцию "массив/список"
+    val numbers: Array<String> = arrayOf(                           // создаем коллекцию "массив"
             "1 Душе очарованной снятся лазурные дали...",           // потом будем брать построчно - по индексу
             "2 Нет сил отогнать неотступную грусти истому...",      // val  ключевое слово переменной - означает НЕизменяемая
             "3 И рвётся душа, трепеща от любви и печали,",          // numbers- название
@@ -41,7 +41,12 @@ const val TAG1 = "MainActivity"                                      // таг -
 
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {        //активность - при запуске приложения
+    override fun onCreate(savedInstanceState: Bundle?) {        // "активность" -функция которая срабатывает  при ЗАПУСКЕ приложения
+                                                                // override - ключ слово
+                                                               //  fun - показывает что это функция
+                                                               //  onCreate - название функции
+                                                               //  savedInstanceState: Bundle? - параметр передаваемый в функцию
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -51,37 +56,39 @@ class MainActivity : AppCompatActivity() {
                                                                 // в скобках [номер индекса в массиве]-
                                                                 //  ++  каждый раз прибавляем к индексу единицу - чтобы в следующий раз была след строка
 
-    override fun onStart() {
+
+
+    override fun onStart() {                                    // "активность" -функция которая срабатывает  при СТАРТЕ приложения
         super.onStart()
         Log.d(TAG1, numbers[jstCount++])
 
     }
 
-    override fun onRestart() {
+    override fun onRestart() {                                  //   при РЕСТАРТЕ
         super.onRestart()
         Log.d(TAG1, numbers[jstCount++])
     }
 
-    override fun onResume() {
+    override fun onResume() {                                   //   при ВОССТАНОВЛЕНИ
         super.onResume()
         Log.d(TAG1, numbers[jstCount++])
 
     }
 
 
-    override fun onPause() {
+    override fun onPause() {                                    //   при переходе в ПАУЗУ
         super.onPause()
         Log.d(TAG1, numbers[jstCount++])
 
     }
 
-    override fun onStop() {
+    override fun onStop() {                                     // при СТОП
         super.onStop()
         Log.d(TAG1, numbers[jstCount++])
 
     }
 
-    override fun onDestroy() {
+    override fun onDestroy() {                                  // при удалении
         super.onDestroy()
         Log.d(TAG1, numbers[jstCount++])
 
