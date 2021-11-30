@@ -10,9 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/firstApp" />
-            <option value="$PROJECT_DIR$/secondBasicV" />
-            <option value="$PROJECT_DIR$/thirdLayouts" />
+            <option value="$PROJECT_DIR$/fifthrecycle" />
+            <option value="$PROJECT_DIR$/firstTest" />
+            <option value="$PROJECT_DIR$/fourthdesighn" />
+            <option value="$PROJECT_DIR$/secondOnCreate" />
+            <option value="$PROJECT_DIR$/thirdIntent" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

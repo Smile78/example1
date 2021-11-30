@@ -7,6 +7,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "secApp"
-include ':firstApp'
-include ':secondBasicV'
-include ':thirdLayouts'
+include ':firstTest'
+include ':secondOnCreate'
+include ':thirdIntent'
+include ':fourthdesighn'
+
+include ':fifthrecycle'

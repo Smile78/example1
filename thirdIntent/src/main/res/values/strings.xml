@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APP no3</string>
+<!--    <string name="title_activity_second">SecondActivity</string>-->
+<!--    <string name="dir_activ_2">Dir Activ 2</string>-->
+    <string name="bttn12_brwser">Brwser</string>
+    <string name="bttn3_call">Call</string>
+    <string name="bttn9_view_2ndscreen">View 2ndScreen</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
