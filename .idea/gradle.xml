@@ -10,7 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/fifthrecycle" />
+            <option value="$PROJECT_DIR$/fifthrecycleMetanit" />
+            <option value="$PROJECT_DIR$/fifthrecycleklimov" />
             <option value="$PROJECT_DIR$/firstTest" />
             <option value="$PROJECT_DIR$/fourthdesighn" />
             <option value="$PROJECT_DIR$/secondOnCreate" />
