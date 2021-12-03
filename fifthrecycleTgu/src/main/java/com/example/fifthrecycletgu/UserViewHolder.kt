@@ -16,6 +16,8 @@ class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         itemView.setOnClickListener {
             Toast.makeText(itemView.context,user.name, Toast.LENGTH_LONG).show()
         }
+
+
     }
 
 }

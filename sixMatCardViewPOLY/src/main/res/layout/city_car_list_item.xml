@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tV_city_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="187dp"
+        />
+
+    <TextView
+        android:id="@+id/tV_city_comfortLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="332dp"
+        />
+
+    <TextView
+        android:id="@+id/tV_city_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="467dp"
+        />
+
+</LinearLayout>
