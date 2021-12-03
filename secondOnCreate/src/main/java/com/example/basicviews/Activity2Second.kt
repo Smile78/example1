@@ -7,7 +7,7 @@ import android.util.Log
 class Activity2Second : AppCompatActivity() {
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {     // "активность" -функция которая срабатывает  при СОЗДАНИИ приложегния
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity2second)
 
