@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fourthdesighn">
+    package="com.example.sixmatcardview">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SecApp">
-        <activity
-            android:name=".Activity4fourth"
-            android:exported="false" />
-        <activity
-            android:name=".Activity3Third"
-            android:exported="false" />
-        <activity
-            android:name=".Activity2Second"
-            android:exported="true" />
         <activity
             android:name=".Activity1Main"
             android:exported="true">

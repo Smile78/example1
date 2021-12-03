@@ -4,10 +4,11 @@ package com.example.basicviews                                      //для  и
 Последовательный вывод строчек стихотворения, используя переопределения событий жизненного цикла активности
 */
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity                     //для  инфы.-  т импорт всмомогательных модулей - мы из них используем некторые функции
 import android.os.Bundle
 import android.util.Log
-
+import android.widget.Button
 
 
 val TAG1 = "MainActivity"                                     // таг - нужен 1ым параметром для логов
@@ -48,15 +49,24 @@ fun cnt():Int{
 class MainActivity : AppCompatActivity() {                        // для  инфы.-
 
 
+    lateinit var nextActivityButton1: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {        // для  инфы.-  "активность" -функция которая срабатывает  при ЗАПУСКЕ приложения
                                                                 // для  инфы.-   override - ключ слово
                                                                 // для  инфы.-   fun - показывает что это функция
                                                                 //    тonCreate - название функции
                                                                 // для  инфы.-     savedInstanceState: Bundle? - параметр передаваемый в функцию
-
-
         super.onCreate(savedInstanceState)                    // для  инфы.-
         setContentView(R.layout.activity_main)                // для  инфы.-
+
+
+        nextActivityButton1 = findViewById(R.id.button1)
+        nextActivityButton1.setOnClickListener {
+        val secondActivInten: Intent = Intent(this, Activity2Second::class.java )
+         startActivity(secondActivInten)
+    }
+
+
 
         Log.d(TAG1, numbers[cnt()])
         //Log.d(TAG1, numbers[jstCount++])
