@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class StateAdapter  extends RecyclerView.Adapter<StateAdapter.ViewHolder>{
+  class StateAdapter  extends RecyclerView.Adapter<StateAdapter.ViewHolder>{
 
     private final LayoutInflater inflater;
     private final List<State> states;

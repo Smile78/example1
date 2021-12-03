@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fourthdesighn">
+    package="com.example.fifthrecycletgu">
 
     <application
         android:allowBackup="true"
@@ -10,14 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SecApp">
         <activity
-            android:name=".Activity3Third"
-            android:exported="false" />
-        <activity
-            android:name=".Activity2Second"
-            android:exported="true" />
-        <activity
-            android:name=".Activity1Main"
+            android:name=".MainActivity"
             android:exported="true">
+<!--            android:exported="false">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

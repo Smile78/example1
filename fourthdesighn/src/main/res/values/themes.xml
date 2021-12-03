@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.SecApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+<!--    <style name="Theme.SecApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+    <style name="Theme.SecApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -11,6 +12,56 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
+
+<!--         <item name="buttonStyle">@style/Widget.MaterialComponents.Button</item>-->
+<!--         <item name="buttonStyle">@style/Theme.MatComp.Button</item>-->
+<!--        <item name="buttonStyle">@style/Theme.AppThem.Button</item>-->
+
+<!--        <item name ="android:textViewStyle">@style/Theme.SecApp.TextViewRED</item>-->
+
+<!--        <item name ="android:buttonStyle">@style/Theme.SecApp.Button</item>-->
+
+
+
+
     </style>
+
+    <style name = "Theme.SecApp.TextViewRED" parent="Widget.MaterialComponents.TextView">
+        <item name = "android:textStyle">bold</item>>
+        <item name = "android:textSize">25sp</item>>
+        <item name = "android:textColor">#ffffff</item>>
+        <item name = "android:background">#e34234</item>>
+
+    </style>
+
+    <style name = "Theme.SecApp.TextViewRED.2Big" parent="Theme.SecApp.TextViewRED">
+        <item name = "android:textStyle">bold</item>>
+        <item name = "android:textSize">55sp</item>>
+        <item name = "android:textColor">#ffffff</item>>
+        <item name = "android:background">#e34234</item>>
+
+    </style>
+
+
+ <!--    кнопки ХЗ  -->
+       <style name = "Theme.MatLight.Button" parent="android:Theme.Material.Light.DarkActionBar">
+<!--    <style name = "Theme.MatComp.Button" parent="Widget.MaterialComponents.Button">-->
+ <!--    <style name = "Theme.AppThem.Button" parent="Widget.AppCompat.Button">-->
+
+        <item name = "android:textStyle">bold</item>>
+        <item name = "android:textSize">55sp</item>>
+        <item name = "android:textColor">#ffffff</item>>
+        <item name = "android:background">#e34234</item>>
+
+    </style>
+
+
+<!--    стиль кнопок с символом назад-->
+<!--    <style name = "butn1">-->
+<!--        < item name = style> Widget.MaterialComponents.Button.Icon"</item>>-->
+<!--        < item name = "app:icon">@drawable/icon_24px"</item>>-->
+<!--    </style>-->
+
 </resources>

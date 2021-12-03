@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">fourthDesighn</string>
+    <string name="app_name">"SRS7 Desighn Arbaiten "</string>
+    <string name="act_main_btn1_go">ПОЕХАЛИ!</string>
+    <string name="act_main_txtV1_kitch">Hello World Russian Kitch Edition!</string>
+    <string name="actv_secnd_btn1_2ndGo">2nd Go!</string>
+    <string name="menu_main_open">Открыть</string>
+    <string name="menu_main_save">Сохранить</string>
+    <string name="menu_main_settings">Настройки</string>
 </resources>
