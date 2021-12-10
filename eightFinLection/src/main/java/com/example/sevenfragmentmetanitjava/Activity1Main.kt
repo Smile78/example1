@@ -9,8 +9,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 private const val LAST_SELECTED_ITEM ="item"
 private val DICE_ROLL_FRAGMENT =DiceRollFragment().javaClass.name // сохраняем два названия
-private val ABOUT_FRAGMENT = AboutFragment().javaClass.name //
-private val THIRD = frendsFragment().javaClass.name //
+private val ABOUT_FRAGMENT = FragSecServices().javaClass.name //
+private val THIRD = FragThrdFrends().javaClass.name //
 
 
 class Activity1Main : AppCompatActivity() {
@@ -43,14 +43,14 @@ class Activity1Main : AppCompatActivity() {
                         fragment =  if(savedInstanceState != null) supportFragmentManager.getFragment(
                          savedInstanceState,
                           ABOUT_FRAGMENT
-                        ) else AboutFragment()
+                        ) else FragSecServices()
                 }
                 R.id.frends->{
 
-                    fragment =  if(savedInstanceState != null) supportFragmentManager.getFragment(
-                        savedInstanceState,
-                        THIRD
-                    ) else frendsFragment()
+                    fragment =
+                        if(savedInstanceState != null)
+                            supportFragmentManager.getFragment(savedInstanceState,THIRD)
+                        else FragThrdFrends()
                 }
 
 
@@ -85,7 +85,7 @@ class Activity1Main : AppCompatActivity() {
 
     fun replaceFragment(fragment: Fragment){
         supportFragmentManager
-            .beginTransaction()
+            .beginTransaction()                         //начать транзацкию
             .replace(R.id.fragmetn_container,fragment)
             .commit()
     }

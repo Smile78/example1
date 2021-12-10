@@ -7,14 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class frendsFragment : Fragment() {
+class FragThrdFrends : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frends, container, false)
+        return inflater.inflate(R.layout.frag_thrd_frends, container, false)
     }
 
 

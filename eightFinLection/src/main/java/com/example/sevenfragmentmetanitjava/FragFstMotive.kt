@@ -37,7 +37,7 @@ class DiceRollFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_dice_roll, container, false)
+        val view = inflater.inflate(R.layout.frag_fst_motiv, container, false)
 
         diceImageView = view.findViewById(R.id.dice_image)
         rollButton =view.findViewById(R.id.button_frag_dice_roll_1)

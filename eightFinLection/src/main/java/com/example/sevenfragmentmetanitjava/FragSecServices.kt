@@ -11,7 +11,7 @@ import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class AboutFragment : Fragment() {
+class FragSecServices : Fragment() {
 
 
     lateinit var developerRecyclerView: RecyclerView
@@ -23,7 +23,7 @@ class AboutFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val view = inflater.inflate(R.layout.fragment_about, container, false)
+        val view = inflater.inflate(R.layout.frag_sec_servic, container, false)
 
 
         val devNames2: List<String> = listOf(
@@ -49,7 +49,7 @@ class AboutFragment : Fragment() {
         //фолс -список переворачивать не надо
 
 
-        developerRecyclerView.adapter = DeveloperAdapter(devNames2) // адапетр в который надо положить список имен
+        developerRecyclerView.adapter = RclrAdapter(devNames2) // адапетр в который надо положить список имен
 //
 
         showWEbBtn.setOnClickListener {

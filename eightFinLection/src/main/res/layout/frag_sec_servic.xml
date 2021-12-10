@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AboutFragment">
+    tools:context=".FragSecServices">
 
      <TextView
-         android:id="@+id/textView_frag_abt_1"
+        android:id="@+id/textView_frag_abt_1"
         android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,6 @@
          android:layout_height="0dp"
          app:layout_constraintBottom_toTopOf="@id/show_website_button"
          app:layout_constraintTop_toBottomOf="@+id/textView_frag_abt_1"
-
          />
 
 

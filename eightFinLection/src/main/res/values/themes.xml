@@ -17,20 +17,19 @@
 
     </style>
 
+
     <style name="Theme.ExamExample.TextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">20sp</item>
-
-
-
     </style>
+
 
     <style name="Theme.SecApp.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.SecApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
+    <style name="Theme.SecApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.SecApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
