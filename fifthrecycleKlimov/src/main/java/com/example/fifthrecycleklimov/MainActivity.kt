@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = CustomRecyclerAdapter(fillList())
 
         recyclerView.adapter = CustomRecyclerAdapter(getCatList())
+
+
     }
 
     private fun fillList(): List<String> {

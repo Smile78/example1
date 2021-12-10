@@ -14,12 +14,30 @@
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1925925925925926" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/basicviews/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eight/src/main/res/layout/activity1_main.xml" value="0.34375" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/drawable/about_icon.xml" value="0.14479166666666668" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/drawable/dice_icon.xml" value="0.13802083333333334" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/drawable/outline_call_24.xml" value="0.1703125" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/drawable/outline_explore_24.xml" value="0.1765625" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/drawable/outline_language_24.xml" value="0.1703125" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/activity1_main.xml" value="0.14994934143870314" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/activity2_main.xml" value="0.14" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/developer_list_item.xml" value="0.2" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/fragment_about.xml" value="0.2" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/fragment_dice_roll.xml" value="0.25" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/fragment_first.xml" value="0.18" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/fragment_frends.xml" value="0.17617753623188406" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/layout/zero_activity.xml" value="0.16" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/eightFinLection/src/main/res/menu/bottom_menu.xml" value="0.21510416666666668" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycle/src/main/res/drawable/ic_ad.xml" value="0.26458333333333334" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycle/src/main/res/drawable/ic_launcher_background.xml" value="0.10555555555555556" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycle/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycle/src/main/res/layout/activity_second.xml" value="0.25" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycle/src/main/res/layout/list_item.xml" value="0.2" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleKlimov/src/main/res/layout/recyclerview_item.xml" value="0.12771739130434784" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleMetanit/src/main/res/layout/activity_main.xml" value="0.15443840579710144" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleMetanit/src/main/res/layout/activity_second.xml" value="0.17617753623188406" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleMetanit/src/main/res/layout/list_item.xml" value="0.17617753623188406" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleTgu/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleTgu/src/main/res/layout/user_list_item.xml" value="0.25" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/fifthrecycleklimov/src/main/res/layout/activity_main.xml" value="0.1308876811594203" />
@@ -53,6 +71,18 @@
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/secondOnCreate/src/main/res/layout/activity2second.xml" value="0.34375" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/secondOnCreate/src/main/res/layout/activity_activity2_second.xml" value="0.2598958333333333" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/secondOnCreate/src/main/res/layout/activity_main.xml" value="0.20625" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentKlimov/src/main/res/layout/activity1_main.xml" value="0.2625" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentKlimov/src/main/res/layout/fragment_blank_1.xml" value="0.2625" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentKlimov/src/main/res/layout/fragment_counter.xml" value="0.1" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentKlimov/src/main/res/layout/fragment_kitty.xml" value="0.22" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentMetanitJava/src/main/res/layout/activity1_main.xml" value="0.33" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentTGU/src/main/res/layout/activity1_main.xml" value="0.2" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentTGU/src/main/res/layout/fragment_end.xml" value="0.1" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenFragmentTGU/src/main/res/layout/fragment_start.xml" value="0.18" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenfragmettgu2bottom/src/main/res/layout/activity1_main.xml" value="0.15833333333333333" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenfragmettgu2bottom/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenfragmettgu2bottom/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sevenfragmettgu2bottom/src/main/res/menu/bottom_menu.xml" value="0.15833333333333333" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sixMatCardView/src/main/res/layout/activity1_main.xml" value="0.1" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sixMatCardView/src/main/res/layout/activity_activity1_main.xml" value="0.253125" />
         <entry key="..\:/MOE/01jvSyntAndroidKotlinJava/src/startandroid/sixMatCardView/src/main/res/layout/car_list_item.xml" value="0.22" />

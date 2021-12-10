@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appName">Будь Готов!</string>
+    <string name="hello_blank_fragment">В разработке</string>
+    <string name="roll">ЕЩЕ БОЛЬШЕ ПОЗЗЗИТИВА</string>
+    <string name="dice_roll_1">За Позитивом</string>
+    <string name="about">За Впечатлениями</string>
+    <string name="textveiew_main_1_bodr">Ключ на старт!</string>
+    <string name="button_main_1_Go">ПОЕХАЛИ!</string>
+    <string name="button_2_main_tem">УЖЕ В ТЕМЕ</string>
+    <string name="third">За Друзьями</string>
+    <string name="services">Наши предложения</string>
+    <string name="web">На наш сайт</string>
+    <string name="call">Позвоните нам</string>
+</resources>

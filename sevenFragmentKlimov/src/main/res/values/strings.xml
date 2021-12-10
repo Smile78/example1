@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sevenFragmentKlimov</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">fragment AABOVEE activity</string>
+    <string name="plus">str_plus</string>
+    <string name="minus">str_minus</string>
+    <string name="zero">str_zero</string>
+</resources>

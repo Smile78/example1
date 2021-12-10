@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sevenFragmentTGU</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="buton1">Hello</string>
+    <string name="buton2">Hello2</string>
+    <string name="start_fragment">start fragment</string>
+    <string name="end_fragment">end fragment</string>
+</resources>

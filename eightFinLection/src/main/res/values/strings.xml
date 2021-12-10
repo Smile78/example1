@@ -1,0 +1,14 @@
+<resources>
+    <string name="appName">ReadySteadyGO</string>
+    <string name="roll">" MORE POSITIVE"</string>
+    <string name="hello_blank_fragment">In development</string>
+    <string name="call">Call us</string>
+    <string name="web">Our Web</string>
+    <string name="services">Our Services</string>
+    <string name="third">to Frends</string>
+    <string name="dice_roll_1">to Positive</string>
+    <string name="about">to Emotions</string>
+    <string name="textveiew_main_1_bodr">Ignition</string>
+    <string name="button_main_1_Go">GO</string>
+    <string name="button_2_main_tem">Im in</string>
+</resources>

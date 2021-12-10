@@ -10,12 +10,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/eightFinLection" />
             <option value="$PROJECT_DIR$/fifthrecycleKlimov" />
             <option value="$PROJECT_DIR$/fifthrecycleMetanit" />
             <option value="$PROJECT_DIR$/fifthrecycleTgu" />
             <option value="$PROJECT_DIR$/firstTest" />
             <option value="$PROJECT_DIR$/fourthdesighn" />
             <option value="$PROJECT_DIR$/secondOnCreate" />
+            <option value="$PROJECT_DIR$/sevenFragmentKlimov" />
+            <option value="$PROJECT_DIR$/sevenFragmentMetanitJava" />
+            <option value="$PROJECT_DIR$/sevenFragmentTGU" />
+            <option value="$PROJECT_DIR$/sevenfragmettgu2bottom" />
             <option value="$PROJECT_DIR$/sixMatCardView" />
             <option value="$PROJECT_DIR$/sixMatCardViewPOLY" />
             <option value="$PROJECT_DIR$/thirdIntent" />
