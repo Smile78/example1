@@ -1,7 +1,21 @@
 <resources>
     <string name="appName">ReadySteadyGO</string>
     <string name="roll">" MORE POSITIVE"</string>
-    <string name="hello_blank_fragment">In development</string>
+    <string name="hello_blank_fragment">DEVELOPERS\n
+https://znanierussia.ru/\n
+проект «Содействие занятости» национального проекта «Демография»\n
+цифровые профессии\n
+институт 2035\n
+LEADER ID\n
+портал «Работа России»\n
+Odin\n
+Центр занятости\n
+ТГУ\n
+ООО МОЦ\n
+группа МОЦ_ТГУ_РМП_5/2021\n
+преподаватель Новопашенный Максим Витальевич\n
+исполнитель Никитин Андрей Сергеевич\n
+    </string>
     <string name="call">Call us</string>
     <string name="web">Our Web</string>
     <string name="services">Our Services</string>
